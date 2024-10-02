@@ -1,0 +1,36 @@
+/* Center the app nav */
+.app-nav {
+  text-align: center; /* Center the text within the nav */
+}
+
+.app-nav ul {
+  list-style: none; /* Remove bullets from list items */
+  padding: 0; /* Remove padding */
+  display: inline-block; /* Make the list inline to center it */
+}
+
+.app-nav li {
+  display: inline; /* Display list items inline */
+}
+
+.app-nav a {
+  color: inherit; /* Inherit color for links */
+}
+
+.app-name-link {
+  font-size: 17px; /* Adjust the size as needed */
+  font-weight: bold; /* Make the text bold */
+  margin: 0%;
+}
+
+/* Apply Space Grotesk for body text */
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/* Change link color on hover */
+a:hover,
+.app-nav a:hover,
+.app-sidebar a:hover {
+  color: #1abf5e !important; /* Darker green for hover effect */
+}

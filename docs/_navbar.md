@@ -1,0 +1,6 @@
+- [Home](README.md)
+- [HR Documentation](HR/)
+- [Technical Development](Technical/)
+- [Legal Documentation](Legal/)
+- [Marketing](Marketing/)
+- [Business Strategy](Business-Strategy/)

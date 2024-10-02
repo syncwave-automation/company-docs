@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover"
+    />
+    <!-- Favicon Link -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://i.ibb.co/wQSqf0Z/syncwave-favicon.png"
+    />
+    <meta name="description" content="" />
+    <title>Syncwave Docs</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Themes (light + dark) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    />
+    <link rel="stylesheet" href="custom.css" />
+
+    <!-- Custom Styles -->
+    <style></style>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script>
+      window.$docsify = {
+        name: "Syncwave Company Docs",
+        repo: "syncwave-automation/company-docs",
+        loadNavbar: true,
+        loadSidebar: true,
+        subMaxLevel: 2,
+        auto2top: true,
+        search: {
+          maxAge: 86400000, // Expiration time for search index cache (1 day)
+          paths: "auto", // Specify paths for search (can be 'auto' or array of paths)
+        },
+        themeable: {
+          readyTransition: true, // default
+          responsiveTables: true,
+        },
+      };
+    </script>
+
+    <!-- Required -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+    <!-- Recommended -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  </body>
+</html>
